@@ -1,0 +1,22 @@
+.form-font {
+    font-family: 'Love Light', cursive;
+    font-size: 24px;
+}
+
+.info-font {
+    font-family: 'Love Light', cursive;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(43, 0, 45);
+    -webkit-animation: info-font 1s ease-in-out infinite alternate;
+    -moz-animation: info-font 1s ease-in-out infinite alternate;
+    animation: info-font 1s ease-in-out infinite alternate;
+}
+@keyframes info-font {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f2f25f, 0 0 40px #f2f25f, 0 0 50px #f2f25f, 0 0 60px #f2f25f;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #f7f788, 0 0 40px #f7f788, 0 0 50px #f7f788, 0 0 60px #f7f788, 0 0 70px #f7f788;
+    }
+}
