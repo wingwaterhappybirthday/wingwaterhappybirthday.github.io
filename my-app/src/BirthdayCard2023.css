@@ -1,0 +1,33 @@
+.birthday-card {
+  position: relative;
+  width: 600px; 
+  height: 400px;
+  /* background-color: lightgoldenrodyellow; */
+  border-radius: 14px;
+  padding: 50px;
+  box-sizing: content-box;
+  margin: 0;
+  overflow: visible;
+  z-index: 1;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and fill the container */
+  z-index: 99;
+}
+
+.inside-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  /* object-position: center; */
+  object-fit: cover; /* Maintain aspect ratio and fill the container */
+  z-index: 99;
+}
